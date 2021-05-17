@@ -6,7 +6,7 @@ const productNames = ['boots', 'bathroom', 'breakfast', 'bubblegum', 'chair', 'd
 function Product(name, path) {
   this.name = name;
   this.path = path;
-  this.tally = 0;
+  this.tally = 0; //Views
   this.views = 0;
   allProducts.push(this);
 }
